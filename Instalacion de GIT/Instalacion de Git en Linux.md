@@ -1,4 +1,4 @@
-﻿**Instalación de Git en Linux**
+﻿## **Instalación de Git en Linux**
 
 ![](imagenes/git.jpeg)
 
