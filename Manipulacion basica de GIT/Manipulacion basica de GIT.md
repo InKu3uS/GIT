@@ -1,4 +1,7 @@
 ﻿## **Manipulación Básica de repositorios en Git**
+ 
+ 
+ ![](https://github.com/InKu3uS/GIT/blob/main/Manipulacion%20basica%20de%20GIT/imagenes/git.jpeg)
 
 
 **Indice**
