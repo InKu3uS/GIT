@@ -8,25 +8,25 @@
 **Indice**
 
 
-[1. Pasos previos 1](#id1)
+[1. Pasos previos](#id1)
 
-[2. Ejercicio 1	2](#id2)
+[2. Ejercicio 1](#id2)
 
-[3. Ejercicio 2	3](#id3)
+[3. Ejercicio 2](#id3)
 
-[4. Ejercicio 3	4](#id4)
+[4. Ejercicio 3](#id4)
 
-[5. Ejercicio 4	5](#id5)
+[5. Ejercicio 4](#id5)
 
-[6. Ejercicio 5	6](#id6)
+[6. Ejercicio 5](#id6)
 
-[7. Ejercicio 6	7](#id7)
+[7. Ejercicio 6](#id7)
 
-[8. Ejercicio 7	8](#id8)
+[8. Ejercicio 7](#id8)
 
-[9. Ejercicio 8	9](#id9)
+[9. Ejercicio 8](#id9)
 
-[9. Ejercicio 9	10](#id10)
+[9. Ejercicio 9](#id10)
 
 
 
