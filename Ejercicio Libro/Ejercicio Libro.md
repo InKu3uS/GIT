@@ -93,7 +93,8 @@ Realizamos un nuevo commit con **git commit -m “Añadido capitulo 2”**
 Por ultimo mostramos las diferencias entre esta version y dos versiones anteriores mediante el comando **git diff HEAD~2..HEAD**
 
 
-![](imagenes/3.png)
+![](imagenes/4.png)
+
 ##
 
 
@@ -106,9 +107,11 @@ Creamos un nuevo archivo dentro del directorio **capitulos** llamado **capitulo3
 
 Añadimos los cambios a la zona de intercambio temporal con **git add .**
 
+
 Realizamos un nuevo commit con **git commit -m “Añadido capitulo 3”**
 
-![](/imagenes/4.png)
+
+![](imagenes/4.png)
 
 Mosramos las diferencias entre la primera y la última versión del repositorio con el comando
 
@@ -126,14 +129,14 @@ Hacemos un commit **git commit -m "Añadido el índice ."**
 Usamos el comando **git annotate indice.txt** para ver quien ha hecho los ultimos cambios en el archivo indice.txt
 
 
-![](imagenes/6.png)
+![](imagenes/5a.png)
 
 
 ## **6. Ejercicio 5**<a name="id6"></a>
 
 Lo siguiente que haremos será crear una nueva rama llamada bibliografia con **git branch bibliografia** y luego mostraremos las ramas del repositorio con **git branch -av**
 
-![](imagenes/7.png)
+![](imagenes/5b.png)
 
 
 ## **7. Ejercicio 6**<a name="id7"></a>
@@ -147,7 +150,7 @@ Hacemos un commit **git commit -m "Añadido el capitulo 4 ."**
 Mostramos la historia del repositorio incluyendo todas la ramas que se han creado con **git log –graph –all --oneline**
 
 
-![](imagenes/8.png)
+![](imagenes/6.png)
 
 
 
@@ -176,7 +179,7 @@ Realizamos el commit **con git commit – m “mensaje de commit”**
 
 Por último, mostramos la historia del repositorio con el comando **git log –graph –all – oneline**
 
-![](imagenes/9.png)
+![](imagenes/7.png)
 
 
 
@@ -200,7 +203,7 @@ Luego, eliminamos la rama bibliografia con el comando **git branch -d bibliograf
 
 Volvemos a mostrar la historia del repositorio para comprobar que la rama bibliografia se ha eliminado.
 
-![](imagenes/10.png)
+![](imagenes/8.png)
 
 
 
@@ -220,7 +223,7 @@ Realizamos el commit con **git commit -m “mensaje del commit”**
 
 Intentamos fusionar la rama bibliografia con la main mediante **git merge bibliografia** y veremos que nos aparecerá un conflicto ya que en las dos ramas, bibliografia contiene elementos diferentes.
 
-![](imagenes/11.png)
+![](imagenes/9.png)
 
 
 
@@ -230,13 +233,13 @@ Intentamos fusionar la rama bibliografia con la main mediante **git merge biblio
 
 Si abrimos **bibliografia.txt** con un editor de texto (en este caso nano) veremos que git nos ha indicado con **“HEAD”** el contenido que tenemos en la rama main y a continuacion lo que contiene la rama bibliografia.
 
-![](imagenes/12.png)
+![](imagenes/10.png)
 Realizamos los cambios que aparecen en la imagen para resolver el conflicto
 
-![](imagenes/13.png)
+![](imagenes/11.png)
 
 Una vez hayamos resuelto el conflicto, añadimos los cambios a la zona de intercambio temporal con **git add .** y realizamos el commit mediante **git commit -m “mensaje del commit”**
 
 Por ultimo revisamo la historia del repositorio mediante el comando **git log –graph –all – oneline**
 
-![](imagenes/14.png)
+![](imagenes/12.png)
