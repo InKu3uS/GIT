@@ -95,7 +95,7 @@ Por ultimo mostramos las diferencias entre esta version y dos versiones anterior
 
 ![](imagenes/4.png)
 
-##
+
 
 
 ##
