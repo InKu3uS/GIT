@@ -2,40 +2,41 @@
 
 **Neftalí Rodríguez Rodríguez**
 
-![](Aspose.Words.ce1d8df1-c476-42b8-9e33-91224b0fcf1d.001.jpeg)[**Github**](https://github.com/InKu3uS/)
+![](imagenes/git.jpeg)
+[**Github**](https://github.com/InKu3uS/)
 
 
-**TOC \o "1-10"Indice**
-
-[Instalación de Apache	1](#__RefHeading___Toc445_2750294972)
-
-[1. Primera parte	2](#__RefHeading___Toc5479_4026787900)
-
-[2. Segunda parte	3](#__RefHeading___Toc5481_4026787900)
-
-[3. Tercera parte	3](#__RefHeading___Toc5587_4026787900)
-
-[4. Cuarta parte	4](#__RefHeading___Toc5589_4026787900)
-
-[5. Quinta parte	5](#__RefHeading___Toc5591_4026787900)
-
-[6. Sexta parte	6](#__RefHeading___Toc539_3601191662)
-
-[7. Séptima parte	6](#__RefHeading___Toc541_3601191662)
-
-[8. Octava parte	7](#__RefHeading___Toc543_3601191662)
-
-[9. Novena parte	7](#__RefHeading___Toc545_3601191662)
+**Indice**
 
 
 
+[1. Primera parte	2](#id1)
 
+[2. Segunda parte	3](#id2)
+
+[3. Tercera parte	3](#id3)
+
+[4. Cuarta parte	4](#id4)
+
+[5. Quinta parte	5](#id5)
+
+[6. Sexta parte	6](#id6)
+
+[7. Séptima parte	6](#id7)
+
+[8. Octava parte	7](#id8)
+
+[9. Novena parte	7](#id9)
 
 
 
 
 
-## **1. Primera parte**
+
+
+
+
+## **1. Primera parte**<a name="id1"></a>
 
 Para empezar actualizaremos los repositorios y el sistema operativo mediante los siguientes comandos:
 
@@ -49,7 +50,7 @@ Antes de realizar la instalación de Apache, detendremos el proceso de GitLab pa
 
 
 
-![](Aspose.Words.ce1d8df1-c476-42b8-9e33-91224b0fcf1d.002.png)
+![](imagenes/1.png)
 
 
 
@@ -60,30 +61,28 @@ Antes de realizar la instalación de Apache, detendremos el proceso de GitLab pa
 
 
 
-## **2. Segunda parte**
+## **2. Segunda parte**<a name="id2"></a>
 
 
 Una vez detenido GitLab procederemos a instalar apache mediante el comando **sudo apt install apache2**
 
-![](Aspose.Words.ce1d8df1-c476-42b8-9e33-91224b0fcf1d.003.png)
-## **3. Tercera parte**
+![](imagenes/2.png)
+## **3. Tercera parte**<a name="id3"></a>
 
 
 Una vez se haya completado la instalación abriremos el archivo **etc/apache2/ports.conf** con cualquier editor y modificamos la linea **Listen 80** por **Listen 8081 y guardamos los cambios.**
 
 
-![](Aspose.Words.ce1d8df1-c476-42b8-9e33-91224b0fcf1d.004.png)
+![](imagenes/3.png)
 
-## **4. Cuarta parte**
+## **4. Cuarta parte**<a name="id4"></a>
 
 
 Lo siguiente será modificar el archivo **/etc/apache2/sites-enabled/000-default.conf**
 
 En la primera linea donde pone **<VirtualHost: \*:80>** lo modificaremos por **<VirtualHost: \*:8081>** y guardamos los cambios
 
-
-![](Aspose.Words.ce1d8df1-c476-42b8-9e33-91224b0fcf1d.005.png)
-
+![](imagenes/4.png)
 
 
 
@@ -94,7 +93,8 @@ En la primera linea donde pone **<VirtualHost: \*:80>** lo modificaremos por **<
 
 
 
-## **5. Quinta parte**
+
+## **5. Quinta parte**<a name="id5"></a>
 
 
 Una vez hayamos modificado ambos archivos de los pasos previos, reiniciaremos el servicio apache2 mediante los siguientes comandos.
@@ -104,16 +104,15 @@ Una vez hayamos modificado ambos archivos de los pasos previos, reiniciaremos el
 
 **sudo service apache2 restart**
 
+![](imagenes/5.png)
 
-![](Aspose.Words.ce1d8df1-c476-42b8-9e33-91224b0fcf1d.006.png)
 
-
-## **6. Sexta parte**
+## **6. Sexta parte**<a name="id6"></a>
 
 
 Ejecutamos el comando sudo **ufw app list** para ver los perfiles disponibles del firewall. Nos aseguramos que aparece **Apache**.
 
-![](Aspose.Words.ce1d8df1-c476-42b8-9e33-91224b0fcf1d.007.png)
+![](imagenes/6.png)
 
 
 
@@ -139,20 +138,19 @@ Ejecutamos el siguiente comando para hacerlo
 
 
 
-## **7. Séptima parte**
+## **7. Séptima parte**<a name="id7"></a>
 
 Una vez hayamos añadido la regla para permitir Apache en el firewall, ejecutamos un **ufw enable** para activar el firewall y a continuación un **ufw status** para comprobar el estado del firewall y comprobar que se ha añadido la regla para permitir Apache
 
-![](Aspose.Words.ce1d8df1-c476-42b8-9e33-91224b0fcf1d.008.png)
+![](imagenes/7.png)
 
 
-## **8. Octava parte**
+## **8. Octava parte**<a name="id8"></a>
 Ejecutamos el comando s**udo systemctl status apache2** para comprobar el estado del servicio. Debe aparecer **active (running)**
 
-![](Aspose.Words.ce1d8df1-c476-42b8-9e33-91224b0fcf1d.009.png)
+![](imagenes/8.png)
 
-## **9. Novena parte**
+## **9. Novena parte**<a name="id9"></a>
 
 Abrimos el navegador e ingresamos en la barra de direcciones **“localhost:8081”**. Deberemos ver la pagina por defecto de Apache2
-
-![](Aspose.Words.ce1d8df1-c476-42b8-9e33-91224b0fcf1d.010.png)
+![](imagenes/9.png)
