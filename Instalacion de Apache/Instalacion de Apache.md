@@ -2,7 +2,8 @@
 
 **Neftalí Rodríguez Rodríguez**
 
-![](imagenes/git.jpeg)[**Github**](https://github.com/InKu3uS/)
+![](imagenes/git.jpeg)
+[**Github**](https://github.com/InKu3uS/)
 
 
 **Indice**
