@@ -4,11 +4,10 @@
 
 [**Github**](https://github.com/InKu3uS/)
 
-![](Tomcat.png)
+![](imagenes/Tomcat.png)
 
 **Indice**
 
-[Instalación de Apache Tomcat 1]
 
 [1. Primera parte	2](#id1)
 
