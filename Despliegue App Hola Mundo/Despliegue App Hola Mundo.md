@@ -6,7 +6,7 @@
 
 ![](imagenes/Tomcat.png)
 
-**"Indice**
+**Indice**
 
 
 [1. Primera parte	2](#id1)
