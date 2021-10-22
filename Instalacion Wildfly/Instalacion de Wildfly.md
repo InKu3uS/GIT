@@ -204,7 +204,7 @@ Luego abriremos el archivo **“/etc/systemd/system/wildfly.service”** y compr
 
 En nuestro caso, hubo que añadir **“$WILDFLY\_CONSOLE\_BIND”** al final de la linea **“ExecStart….”**
 
-![](imagenes/16.png)
+![](imagenes/16.PNG)
 
 
 
@@ -212,7 +212,7 @@ En nuestro caso, hubo que añadir **“$WILDFLY\_CONSOLE\_BIND”** al final de 
 
 Tras realizar las modificaciones en ambos archivos reiniciaremos los servicios para asegurarnos que los nuevos cambios se han cargado.
 
-![](imagenes/17.png)
+![](imagenes/17.PNG)
 
 
 
@@ -220,7 +220,7 @@ Tras realizar las modificaciones en ambos archivos reiniciaremos los servicios p
 
 Si queremos activar la consola de administración, bastaría con comentar o eliminar las lineas de las etiquetas **inet-address** en el archivo **“/opt/wildfly/standalone/configuration/standalone.xml”**
 
-![](imagenes/18.png)
+![](imagenes/18.PNG)
 
 
 
