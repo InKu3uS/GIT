@@ -187,7 +187,7 @@ Veremos un asistente que nos guiará en el proceso. Marcaremos la opcion **“a�
 
 
 
-![](imagenes/13.png)
+![](imagenes/14.png)
 
 
 
@@ -196,7 +196,7 @@ Veremos un asistente que nos guiará en el proceso. Marcaremos la opcion **“a�
 
 El siguiente paso será abrir el script **“/*opt/wildfly/bin/launch.sh”*** con un editor de texto*** y comprobar que el contenido es igual al de la siguiente imagen.
 
-![](imagenes/14.png)
+![](imagenes/15.png)
 
 
 ## **12. Parte 12**<a name="id12"></a>
@@ -204,7 +204,7 @@ Luego abriremos el archivo **“/etc/systemd/system/wildfly.service”** y compr
 
 En nuestro caso, hubo que añadir **“$WILDFLY\_CONSOLE\_BIND”** al final de la linea **“ExecStart….”**
 
-![](imagenes/15.png)
+![](imagenes/16.png)
 
 
 
@@ -212,7 +212,7 @@ En nuestro caso, hubo que añadir **“$WILDFLY\_CONSOLE\_BIND”** al final de 
 
 Tras realizar las modificaciones en ambos archivos reiniciaremos los servicios para asegurarnos que los nuevos cambios se han cargado.
 
-![](imagenes/16.png)
+![](imagenes/17.png)
 
 
 
@@ -220,14 +220,13 @@ Tras realizar las modificaciones en ambos archivos reiniciaremos los servicios p
 
 Si queremos activar la consola de administración, bastaría con comentar o eliminar las lineas de las etiquetas **inet-address** en el archivo **“/opt/wildfly/standalone/configuration/standalone.xml”**
 
-![](imagenes/17.png)
+![](imagenes/18.png)
 
 
 
 
 ## **15. Parte 15**<a name="id15"></a>
 
-![](imagenes/18.png)
 
 Una vez hayamos completado la instalación y configuración de **Wildfly**, accederemos a él desde nuestro navegador introduciendo **“localhost:8083”**
 
