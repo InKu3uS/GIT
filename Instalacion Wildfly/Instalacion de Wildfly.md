@@ -6,9 +6,8 @@
 
 ![](imagenes/wildfly.png)
 
-**"Indice**
+**Indice**
 
-[Instalación de Wildfly	1]
 
 [1. Parte 1](#id1)
 
