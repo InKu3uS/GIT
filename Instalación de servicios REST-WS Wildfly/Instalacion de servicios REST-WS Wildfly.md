@@ -36,7 +36,7 @@ Una vez descargado, descomprimimos los proyectos de pruebas que vamos a usar. En
 ![](imagenes/1.png)
 
 
-## **2. Segunda parte<a name="id2"></a>
+## **2. Segunda parte**<a name="id2"></a>
 
 ![](imagenes/2.png)
 
