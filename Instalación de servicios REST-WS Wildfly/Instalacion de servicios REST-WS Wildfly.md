@@ -92,8 +92,9 @@ Ahora volveremos a la consola de administración de Wildfly para repetir el proc
 
 ![](imagenes/10.png)
 
-![](imagenes/11.png)Una vez se haya completado el despliegue, veremos la ventana de características del proyecto donde se nos indica que se ha completado el despliegue.
+Una vez se haya completado el despliegue, veremos la ventana de características del proyecto donde se nos indica que se ha completado el despliegue.
 
+![](imagenes/11.png)
 Haremos click en el enlace para comprobar que funciona correctamente.
 
 ![](imagenes/12.png)
