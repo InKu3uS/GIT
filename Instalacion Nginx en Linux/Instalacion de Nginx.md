@@ -8,7 +8,6 @@
 
 **Indice**
 
-[Instalación de Nginx])
 
 [1. Primera parte](#id1)
 
@@ -120,4 +119,4 @@ Una vez realizados los cambios en el fichero, ejecutamos el comando **“nginx -
 
 Por último, abriremos el navegador e introduciremos la url al dominio que hemos creado. En nuestro caso es **“your\_domain.com:8084”**. Nos debe aparecer la pagina de inicio de Apache.
 
-![](imagenes/12.png)
+![](imagenes/12.PNG)
