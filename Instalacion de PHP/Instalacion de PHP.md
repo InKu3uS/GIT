@@ -28,7 +28,7 @@
 
 Antes de empezar haremos un **“apt update”** para actualizar la lista de paquetes.
 
-![](Aspose.Words.1ede9667-352e-4edd-956c-49390d4b3f46.002.png)
+![](imagenes/1.png)
 
 
 
@@ -36,7 +36,7 @@ Antes de empezar haremos un **“apt update”** para actualizar la lista de paq
 
 Luego instalaremos PHP usando **“apt install -y php”**
 
-![](Aspose.Words.1ede9667-352e-4edd-956c-49390d4b3f46.003.png)
+![](imagenes/2.png)
 
 
 
@@ -45,7 +45,7 @@ Luego instalaremos PHP usando **“apt install -y php”**
 Luego instalaremos **PHP-fpm** que es el que usaremos para Nginx
 
 
-![](Aspose.Words.1ede9667-352e-4edd-956c-49390d4b3f46.004.png)
+![](imagenes/3.png)
 
 
 
@@ -53,11 +53,11 @@ Luego instalaremos **PHP-fpm** que es el que usaremos para Nginx
 
 Lo siguiente será dirigirnos al archivo **“/etc/nginx/sites-available/defaul”**, descomentar la linea donde aparece **“location”**, **“fastcgi”** y por último descomentaremos tambien el corchete de cierre y guardamos los cambios.
 
-![](Aspose.Words.1ede9667-352e-4edd-956c-49390d4b3f46.005.png)
+![](imagenes/4.png)
 
 Una vez realizados los cambios, recargamos el servicio de Nginx
 
-![](Aspose.Words.1ede9667-352e-4edd-956c-49390d4b3f46.006.png)
+![](imagenes/5.png)
 
 
 
@@ -66,13 +66,12 @@ Una vez realizados los cambios, recargamos el servicio de Nginx
 Para probar que tenemos PHP funcionando correctamente en Nginx creamos el siguiente archivo en **“var/www/html/”**
 
 
-![](Aspose.Words.1ede9667-352e-4edd-956c-49390d4b3f46.007.png)
+![](imagenes/6.png)
 
 Por último, abriremos el navegador e introduciendo la dirección **“localhost:8084/info.php”** nos deberá aparecer la pagina de información de PHP.
 
 
-
-![](Aspose.Words.1ede9667-352e-4edd-956c-49390d4b3f46.008.png)
+![](imagenes/7.png)
 
 
 
