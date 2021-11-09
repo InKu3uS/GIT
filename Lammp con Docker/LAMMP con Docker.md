@@ -19,7 +19,7 @@
 
 [3. Parte 3](#id3)
 
-[4. Cuarta parte](#id4)
+[4. Parte 4](#id4)
 
 [5. Parte 5](#id5)
 
