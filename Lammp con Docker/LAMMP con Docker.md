@@ -71,7 +71,7 @@ Este será el contenido de **“dbname.sql”**
 
 
 
-## **4. Cuarta parte**<a name="id4"></a>
+## **4. Parte 4**<a name="id4"></a>
 
 Luego creamos el archivo **“index.php”** en el directorio www
 
