@@ -104,9 +104,11 @@ Ejecutaremos **“docker-compose ps”** y veremos que el contenedor **“conf\_
 
 Si revisamo el log de dicho contenedor, se nos avisa de que el usuario root ya existe y no puede crearse.
 
+![](imagenes/9.png)
+
 Paramos todos los contenedores mediante **“docker-compose down –volumes”** ya que será necesario hacer cambios en el archivo **“docker-compose.yml”**
 
-![](imagenes/9.png)
+![](imagenes/10.png)
 
 
 
@@ -114,7 +116,7 @@ Paramos todos los contenedores mediante **“docker-compose down –volumes”**
 
 Una vez abierto el archivo, modificamos la linea **“MYSQL\_USER”** que anteriormente tenia el valor **“root”** por otro de nuestra elección.
 
-![](imagenes/10.png)
+![](imagenes/11.png)
 
 
 ## **7. Parte 7**<a name="id7"></a>
@@ -123,7 +125,7 @@ Volvemos a ejecutar **“docker-compose up -d”** para crear los contenedores d
 
 
 
-![](imagenes/11.png)
+![](imagenes/12.png)
 
 
 
@@ -132,11 +134,9 @@ Volvemos a ejecutar **“docker-compose up -d”** para crear los contenedores d
 
 Ejecutamos de nuevo **“docker-compose down –volume”** para apagar y borrar los contenedores
 
-![](imagenes/12.png)
+![](imagenes/13.png)
 
 Cogemos un archivo PHP nuestro y lo intercambiamos por el que creamos de inicio.
-
-![](imagenes/13.png)
 
 
 
