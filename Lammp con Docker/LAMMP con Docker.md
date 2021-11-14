@@ -1,12 +1,12 @@
 ﻿## **LAMMP con Docker**
 
-![](imagenes/docker.png)
+
 
 **Neftalí Rodríguez Rodríguez**
 
-
-
 [**Github**](https://github.com/InKu3uS/)
+
+![](imagenes/docker.png)
 
 
 **Indice**
@@ -19,7 +19,7 @@
 
 [3. Parte 3](#id3)
 
-[4. Cuarta parte](#id4)
+[4. Parte 4](#id4)
 
 [5. Parte 5](#id5)
 
@@ -71,7 +71,7 @@ Este será el contenido de **“dbname.sql”**
 
 
 
-## **4. Cuarta parte**<a name="id4"></a>
+## **4. Parte 4**<a name="id4"></a>
 
 Luego creamos el archivo **“index.php”** en el directorio www
 
