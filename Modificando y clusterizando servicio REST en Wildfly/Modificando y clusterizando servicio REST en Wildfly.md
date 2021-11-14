@@ -11,19 +11,19 @@
 
 **Indice**
 
-[Clusterizando un Servicio Rest en Wildfly	1](#id1)
+[Clusterizando un Servicio Rest en Wildfly](#id1)
 
-[1. Primera parte	2](#id1)
+[1. Primera parte](#id1)
 
-[2. Segunda parte	3](#id2)
+[2. Segunda parte](#id2)
 
-[3. Tercera parte	5](#id3)
+[3. Tercera parte](#id3)
 
-[4. Cuarta parte	6](#id4)
+[4. Cuarta parte](#id4)
 
-[5. Quinta parte	7](#id5)
+[5. Quinta parte](#id5)
 
-[6. Sexta parte	8](#id6)
+[6. Sexta parte](#id6)
 
 
 
