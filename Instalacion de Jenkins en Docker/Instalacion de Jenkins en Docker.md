@@ -60,9 +60,9 @@ Introducimos la URL de nuestro dominio a través del puerto **8080** y veremos l
 ![](imagenes/8.png)
 
 
-![](imagenes/9.png)
-
 Esperamos a que se instalen los **plugins.**
+
+![](imagenes/9.png)
 
 Una vez se hayan instalado los **plugins**, nos aparecerá la siguiente pagina en la que deberemos crear al usuario que usaremos para **Jenkins**
 
@@ -86,14 +86,13 @@ Dentro del directorio **“jenkins”** también crearemos el archivo **“plugi
 ![](imagenes/13.png)
 
 
-![](imagenes/14.png)
-
 En el directorio principal crearemos el archivo **“docker-compose.yml”** que se ve en la imagen siguiente.
+
+![](imagenes/14.png)
 
 Una vez tengamos estos tres archivos creados, ejecutamos en la terminal el comando **“docker-compose build”**. Si todo sale correctamente al final deberíamos ver el mensaje **“Successfully built”.**
 
 ![](imagenes/15.png)
-
 
 
 Para arrancar el contenedor, usaremos el comando **“docker-compose up -d”**. Si el contenedor se arranca correctamente nos aparecerá en la terminal un mensaje en color verde diciendo **“done”**. Podremos comprobar que el contenedor está arrancado con el comando **“docker-ps”.**
@@ -112,14 +111,16 @@ Entramos al navegador con la dirección del subdominio. Nos aparecerá la pagina
 ![](imagenes/18.png)
 
 
-![](imagenes/19.png)
-
 Esperamos a que se instalen los plugins. **Esta vez ya muchos se encontrarán instalados**.
+
+![](imagenes/19.png)
 
 Una vez instalados, crearemos al usuario que hará uso de **Jenkins**.
 
-![](imagenes/20.png)
-
 Cuando hayamos creado al usuario, nos encontraremos en el **Panel de Control** de **Jenkins** listo para usar.
 
-![](imagenes/21.png)
+![](imagenes/20.png)
+
+
+
+
