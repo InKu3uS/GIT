@@ -106,16 +106,17 @@ Ejecutamos en una consola el comando **“docker exec -it dockerjenkins\_master\
 ![](imagenes/17.png)
 
 
-Entramos al navegador con la dirección del subdominio. Nos aparecerá la pagina en la que deberemos introducir la clave de desbloqueo que obtuvimos en el paso anterior. Nos aparecerá la pagina siguiente, clickaremos en **“Install suggested plugins”** para continuar
+Entramos al navegador con la dirección del subdominio. Nos aparecerá la pagina en la que deberemos introducir la clave de desbloqueo que obtuvimos en el paso anterior. Nos aparecerá la pagina siguiente, clickaremos en **“Install suggested plugins”** para continuar.
+
+Esperamos a que se instalen los plugins. **Esta vez ya muchos se encontrarán instalados**.
 
 ![](imagenes/18.png)
 
 
-Esperamos a que se instalen los plugins. **Esta vez ya muchos se encontrarán instalados**.
+Una vez instalados, crearemos al usuario que hará uso de **Jenkins**.
 
 ![](imagenes/19.png)
 
-Una vez instalados, crearemos al usuario que hará uso de **Jenkins**.
 
 Cuando hayamos creado al usuario, nos encontraremos en el **Panel de Control** de **Jenkins** listo para usar.
 
