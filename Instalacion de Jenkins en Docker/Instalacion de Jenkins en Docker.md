@@ -51,7 +51,7 @@ Arrancamos el contenedor de Docker que nos acabamos de descargar mediante el com
 
 ![](imagenes/6.png)
 
-Una vez arrancada, mediante el comando **“docker exec -it dockerjenkins\_master\_1 cat /var/jenkins\_home/secrets/initialAdminPassword”** obtendremos el código para desbloquear Jenkins
+Una vez arrancada, mediante el comando **“docker exec -it dockerjenkins\_pensive\_wu cat /var/jenkins\_home/secrets/initialAdminPassword”** obtendremos el código para desbloquear Jenkins
 
 ![](imagenes/7.png)
 
