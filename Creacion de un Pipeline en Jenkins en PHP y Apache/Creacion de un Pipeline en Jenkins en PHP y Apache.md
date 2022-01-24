@@ -9,7 +9,7 @@
 
 [**Github**](https://github.com/InKu3uS/)
 
-Indice**
+Indice
 
 [Creación de un Pipeline en Jenkins en PHP y Apache	1](#id1)
 
@@ -22,9 +22,6 @@ Indice**
 [4. Parte 4](#id4)
 
 [5. Parte 5](#id5)
-
-
-
 
 
 
