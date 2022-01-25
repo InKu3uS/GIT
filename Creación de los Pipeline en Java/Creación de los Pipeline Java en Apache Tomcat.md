@@ -46,15 +46,16 @@ En la raiz del directorio del repositorio creamos un archivo **Dockerfile** con 
 ![](imagenes/2.png)
 
 
+Modificamos el archivo **“index.jsp”** dentro del directorio **“src”** para incluir nuestro nombre
 
-Posteriormente creamos el archivo **Jenkinsfile** que le indicará a **Jenkins** las fases y los pasos a seguir.
+
 
 ![](imagenes/3.png)
 
 
 ## **4. Parte 4**<a name="id4"></a>
 
-Modificamos el archivo **“index.jsp”** dentro del directorio **“src”** para incluir nuestro nombre
+Posteriormente creamos el archivo **Jenkinsfile** que le indicará a **Jenkins** las fases y los pasos a seguir.
 
 ![](imagenes/4.png)
 
